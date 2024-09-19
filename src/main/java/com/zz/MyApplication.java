@@ -9,6 +9,5 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 public class MyApplication {
     public static void main(String[] args) {
         SpringApplication.run(MyApplication.class);
-//        new SpringApplicationBuilder().build(args[0]).run(MyApplication.class);
     }
 }
