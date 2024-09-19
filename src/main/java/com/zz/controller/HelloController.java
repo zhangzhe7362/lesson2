@@ -14,8 +14,4 @@ public class HelloController {
         return this.name;
     }
 
-    @GetMapping("/hello/{id}")
-    public String getId(@PathVariable("id") String id){
-        return id;
-    }
 }
